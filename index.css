@@ -1,0 +1,132 @@
+#container{
+    position: sticky;
+    height: 78px;
+}
+#Navbar{
+    height: 76px;
+    border-top:1px solid grey ;
+    border-bottom:1px solid grey ;
+    position: relative;
+}
+#logo{
+    position:absolute;
+    left: 2%;
+    top:30%;
+    height:40%;
+    width:2%;
+    background-color: black;
+    border-radius:3px;
+}
+#logo img{
+    position: absolute;
+    left:20%;
+    top:30%;
+}
+#heading{
+    position: absolute;
+    left: 5%;
+    width: 10%;
+    top: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0px;
+    border-right: 2px solid gray;
+}
+#sign{
+    position: absolute;
+    right:23% ;
+    width:10%;
+    height: 10%;
+    top:35%;
+}
+#search{
+    position:absolute;
+    right:10%;
+    width:20%;
+    top:25%;
+    height: 30%;
+}
+#Submit{
+    position: absolute;
+    right:4%;
+    width:5%;
+    top:28%;
+    height: 30%;
+}
+#menu{
+    position: absolute;
+    width: 15%;
+    /* border-right: 2px solid gray; */
+    height: 100%;
+
+}
+#searchResult{
+    border: 1px solid grey;
+    /* width:20%; */
+}
+.menuItems{
+        position: relative;
+        height: 2%;
+        width: 100%;
+        border: 10px;
+        margin: 10px;
+        padding: 10px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 19px;
+    }
+#addButton{
+    color: white;
+    position:absolute;
+    background-color: #000000;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 12px 24px 12px 24px;
+    top: 70%;
+    left:8%;
+}
+#movieLists{
+    position:relative;
+    margin-top:50px;
+    left:20%;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    width:80%;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.movies{
+    position: relative;
+    height: 400px;
+    width: 350px;
+    margin: 2px;
+    /* background-color: aqua; */
+}
+.movies img{
+
+    height: 400px;
+    width: 350px;
+    margin: 2px;
+}
+.movies span{
+    position: absolute;
+    width: 348px;
+    height: 64px;
+    top: 84.5%;
+    left:1%;
+font-family: 'Roboto';
+font-style:normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+background-color: rgba(0, 0, 0, 0.563);
+/* opacity: 50%; */
+
+}
